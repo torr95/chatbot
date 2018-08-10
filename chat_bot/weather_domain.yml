@@ -1,0 +1,17 @@
+intents:
+ - greet
+ - goodbye
+ - help_install
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_help_intent:
+    - 'Ok, do you know the capacity that you would like to install.'
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_help_intent
+ - actions.ActionWeather

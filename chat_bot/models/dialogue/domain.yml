@@ -1,0 +1,28 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_help_intent
+- action_weather
+actions:
+- utter_greet
+- utter_goodbye
+- utter_help_intent
+- actions.ActionWeather
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- goodbye
+- help_install
+slots: {}
+templates:
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
+  utter_help_intent:
+  - text: Ok, do you know the capacity that you would like to install.
+topics: []

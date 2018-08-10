@@ -1,0 +1,64 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "help_install",
+        "text": "I am planning to install solar system on my rooftop and looking for installers."
+      },
+      {
+        "intent": "help_install",
+        "text": "i want solar panels on my rooftop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "help_install",
+        "text": "i need your services"
+      },
+      {
+        "intent": "help_install",
+        "text": "help me with solar panels."
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
